@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/DylanVann/advent-of-code-2017/issues"
   },
-  "homepage": "https://github.com/DylanVann/advent-of-code-2017#readme"
+  "homepage": "https://github.com/DylanVann/advent-of-code-2017#readme",
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
 }
