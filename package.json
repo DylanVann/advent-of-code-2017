@@ -2,21 +2,25 @@
   "name": "advent-of-code-2017",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "homepage": "https://github.com/DylanVann/advent-of-code-2017",
+  "bugs": {
+    "url": "https://github.com/DylanVann/advent-of-code-2017/issues"
   },
+  "license": "MIT",
+  "author": "Dylan Vann",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DylanVann/advent-of-code-2017.git"
   },
-  "author": "Dylan Vann",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/DylanVann/advent-of-code-2017/issues"
+  "scripts": {
+    "test": "jest"
   },
-  "homepage": "https://github.com/DylanVann/advent-of-code-2017#readme",
   "devDependencies": {
+    "@babel/core": "^7.0.0-beta.34",
+    "@babel/preset-env": "^7.0.0-beta.34",
+    "@babel/preset-typescript": "^7.0.0-beta.34",
+    "babel-jest": "^21.2.0",
     "jest": "^21.2.1"
   }
 }
