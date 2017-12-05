@@ -10,3 +10,6 @@ export const getSteps = (number) => {
     const distanceFromCorner = positionInRing % (ringSize - 1)
     return minStepsForRing + Math.abs(distanceFromCorner - minStepsForRing)
 }
+
+export const getFirstValueLargerThan = (number) => {
+}
