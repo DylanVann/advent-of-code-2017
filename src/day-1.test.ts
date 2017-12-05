@@ -1,4 +1,4 @@
-import {solve, solveHalfway} from './day-1'
+import { solve, solveHalfway } from './day-1'
 
 test('it to work', () => {
     expect(solve('1122')).toBe(3)

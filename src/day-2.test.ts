@@ -1,4 +1,4 @@
-import {checksum, checksumFactors, getRowFactorDivision} from './day-2'
+import { checksum, checksumFactors, getRowFactorDivision } from './day-2'
 
 test('it works', () => {
     const input = `
